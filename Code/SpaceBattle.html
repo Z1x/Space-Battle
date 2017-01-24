@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SpaceBattle</title>
+    <link rel="stylesheet" href="SpaceBattle.css">
+</head>
+
+<body>
+    <div id='container'>
+        <div id='startScreen'>
+
+            <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen">
+                <source src="../vid/vid.mp4" type="video/mp4">
+            </video>
+            <div>
+                <img src="../Img/logo.png" alt="logo">
+                <br>
+                <a href="#game"><button onclick="play(true)">Play</button></a>
+            </div>
+
+
+        </div>
+        <div id='area'>
+            <div id='ship1'></div>
+            <div id='ship2'></div>
+            <div id='result'>
+                <p id='hp1'></p>
+                <p id='hp2'></p>
+            </div>
+
+        <a id='game'></a>      
+        </div>
+
+    </div>
+
+    <script src="SpaceBattle.js"></script>
+</body>
+
+</html>
